@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Signin Page</title>
+        <!-- -------------Font--------------- -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&family=Rubik+Distressed&family=Rubik+Microbe&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&family=Rubik+Distressed&family=Rubik+Marker+Hatch&family=Rubik+Microbe&display=swap" rel="stylesheet"> 
+        <!-- -----------animation---------- -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--   --------------------icon--------------- -->
+        <script src="https://kit.fontawesome.com/70fffd57a8.js" crossorigin="anonymous"></script>
+        <!-- ---------------- css--------------------- -->
+        <link rel="stylesheet" href="./register_sigin.css">
+    </head>
+    <body class="SiginBody">
+        <div class="parentDiv">
+            <span class="FristSpanLogin">
+            
+                <div class="LoginImage">
+                   <!-- <img src="/Areas/Assets/media/images/LargeImages/triShop.jpg" alt="triShop image"> -->
+                   <img src="./triShop.jpg" alt="triShop image">
+             
+               </div>
+                <div class="text">
+                    <h1>TriShop</h1>
+                    <p>TriShop helps you save your time and money in shopping and sharing trips with other.</p>
+                </div>
+            
+            </span>
+        <span class="SecondSpanLogin">
+            <div class="childDiv1">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email"  maxlength="50" min="10" id="email " 
+                placeholder="your Email Address" required><br><br>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password"  maxlength="50" min="10" id="myInput"
+                        placeholder="Password" required> <br><br>
+                 <label for=""><input type="checkbox" onclick="myFunction()">
+                    Show Password </label>
+                  
+                <script>
+                function myFunction() {
+                  var x = document.getElementById("myInput");
+                  if (x.type === "password") {
+                    x.type = "text";
+                  } else {
+                    x.type = "password";
+                  }
+                }
+                </script>  
+
+
+                 <p> <a class="link1" href="">Forget Password?</a>  <a class="link2" href="../taskW2D2(home).html">LOGIN <i style="color:white;" class="fa-solid fa-arrow-right-long"></i></a></p>   
+                     
+            </div><br>
+
+            <div class="CreateAcount">
+                <span>Don't have an account?</span>
+                <a href="./register.html">Create one</a>
+            </div>
+            
+        </span>
+        </div>
+           
+        
+        
+    </body>
+</html>

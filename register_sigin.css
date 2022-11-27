@@ -1,0 +1,274 @@
+.registerBody,.SiginBody{
+  background-image: url(./9.jpg);
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+
+  background-attachment: fixed;
+}
+.FirstDiv{
+    /* border: 2px solid black; */
+    background-color: white;
+    border-radius: 10%;
+    height: 100%;
+    width: 430px;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+.imge{
+    
+    text-align: center;
+}
+ .imge img{
+    height: 150px;
+    width: 150px;
+    /* line-height: 100px; */
+    border-radius: 50%;
+    animation-name: fadeInTopLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    
+}
+.imge h2{
+    font-family: 'Roboto', sans-serif;
+
+    /* font-family: 'Rubik Distressed', cursive; */
+
+    font-family: 'Rubik Microbe', cursive;
+
+   
+    /* animation-name: bounce; */
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    margin: 3px;
+    font-size: 2.2em;
+    color: #7dacbf;
+}
+.imge{
+    position: relative;
+    }
+    .imge h2::before{
+        content: '';
+        border-top: 4px solid #267392;
+        border-left: 4px solid #54a3c2;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: 125px;
+       top: -11px;
+        border-radius: 18px;
+       
+    }
+    
+    /* .imge h2::after{
+        content: '';
+        border-bottom: 4px solid black;
+        border-right: 4px solid black;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        bottom: 37px;
+        left: 179px;
+        border-radius: 18px;
+    } */
+.imge p{
+   font-family: cursive;
+   margin-top: 2px;
+   font-style: italic;
+}
+.form input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+    outline: none;
+    outline-style: none;
+    background-color: transparent;
+    
+  
+}
+.form .labelPassword ,.form .labelName{
+    position: relative;
+}
+.form input ::placeholder{
+    color: rgb(27, 87, 140);
+    
+}
+/*------------------ button--------------- */
+input:invalid+span.m{
+    visibility: visible;
+}
+input:valid+span.m{
+    visibility: hidden;
+}
+.button input{
+    width: 400px;
+    height: 27px;
+    /* background-color: #60ba49; */
+    background-color: #7dacbf;
+    color: white;
+}
+
+
+.button input:hover{
+    background-color: #629eb5;
+}
+.account{
+    margin-top: 10px;
+    text-align: center;
+}
+.account a{
+    text-decoration: none;
+}
+.account a:hover{
+color: teal;
+}
+
+
+/* ----------------SiginPage---------------- */
+
+.parentDiv{
+    
+    width: 100%;
+}
+.FristSpanLogin{
+    padding: 10px;
+    float: left;
+    margin-left: 50px;
+    height: 100%;
+    width: 55%;
+    /* background-color: antiquewhite; */
+   
+  
+}
+
+.LoginImage img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 200px;
+    animation-name: fadeInTopLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 1; 
+}
+.text h1{
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+
+    /* font-family: 'Rubik Distressed', cursive; */
+
+    font-family: 'Rubik Microbe', cursive;
+
+}
+.text{
+position: relative;
+}
+.text h1::before{
+    content: '';
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -12px;
+    top: -6px;
+    border-radius: 18px;
+   
+}
+
+.text h1::after{
+    content: '';
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 37px;
+    left: 179px;
+    border-radius: 18px;
+}
+.text p{
+    font-size: 1.1em;
+}
+.SecondSpanLogin{
+    padding: 10px;
+    float: left;
+    margin-left: 50px;
+    height: 100%;
+    width: 25%;
+    margin-top: 150px;
+    /* background-color:antiquewhite; */
+    /* border-radius: 10%; */
+
+}
+.SecondSpanLogin  .childDiv1{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    /* margin-left: 20px; */
+    padding-left: 10px;
+ }
+.SecondSpanLogin .childDiv1 input{
+   
+  
+   width: 200px;
+   height: 30px;
+   
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: solid black 1px;
+   outline: none;
+   outline-style: none;
+   /* background-color: transparent; */
+
+}
+.SecondSpanLogin .childDiv1 input[type="email" ]{
+    margin-top: 20px;
+
+ }
+ .SecondSpanLogin .childDiv1 input[type="checkbox" ]{
+    width: 15px;
+    height: 15px;
+
+ }
+ 
+ .SecondSpanLogin .childDiv1 p{
+   color: #185f7b;
+   margin-left: 20px;
+ }
+ .SecondSpanLogin .childDiv1 p .link1{
+    color: #185f7b;
+    text-decoration: none;
+ }
+ .SecondSpanLogin .childDiv1 p .link1:hover{
+    color: #629eb5;
+ }
+ .SecondSpanLogin .childDiv1 p .link2 {
+    display:inline-block;
+  text-decoration: none;
+  background-color: #7dacbf;
+  color: black;
+  width: 112px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius:20px ;
+
+ }
+ .SecondSpanLogin .childDiv1 p .link2:hover{
+    background-color: #629eb5;
+ }
+ 
+ .CreateAcount{
+    margin-left: 19px;
+ }
+ .CreateAcount a{
+text-decoration: none;
+ }
+ .CreateAcount a:hover{
+    color: teal;
+ }
